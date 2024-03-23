@@ -1,0 +1,7 @@
+langchain==0.0.225
+ctransformers==0.2.5 #to load the quantized model
+sentence-transformers==2.2.2 #for embedding
+pypdf #to load pdf data
+flask #
+faiss-cpu #for vectordb
+-e . #to look for setup.py, setup.py helps you setup local package, with find_packages() it looks for local constructure file
